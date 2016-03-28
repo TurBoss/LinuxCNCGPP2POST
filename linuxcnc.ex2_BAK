@@ -73,7 +73,8 @@ BEGINNING OF TAPE:
 	OUTPUT_BACK ;
 	OUTPUT \J "(--------------------------------)"	;
 		
-	OUTPUT $ "G17 G90 G90.1";
+	OUTPUT $ "G17G21G90G90.1" ;
+	OUTPUT $ "G64 P0.001" ;
 
 
 *-----------------------------------------------------------------------------------------------
@@ -92,8 +93,6 @@ END OF TAPE:
 *-----------------------------------------------------------------------------------------------
 
 END OF FILE:
-
-	OUTPUT \J "%";
 	
 	
 *------------------------------------------------------------------------------------------------
@@ -130,7 +129,7 @@ TOOL CHANGE:
 		OUTPUT $ "G91 G28 Z0";
 	END_IF; 
 	OUTPUT \J " " ;
-	OUTPUT $ "T" TOOL_NUM " M06" ;
+	OUTPUT $ "M6 T" TOOL_NUM ;
 
 // create tool list at the begining of the program - redirect to file *.t01
 	OUTPUT_REDIRECT "t" ;
