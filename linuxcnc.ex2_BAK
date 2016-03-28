@@ -1,0 +1,279 @@
+//	LinuxCNC 3X postproccessor
+//	Controller LinuxCNC
+//	post version: 4.00
+//	GPP2 version: 5.06
+
+*-----------------------------------------------------------------------------------------------
+// the followinf text will appear on the GPP2 dialog (limited to 256 characters)
+GPP_TITLE 	" GPP2 3X LinuxCNC Processor";
+
+
+// check if Provider-defined post module exists in the *.lic file
+* GPP_PROTECT "PP_IS_AAA";
+
+*-----------------------------------------------------------------------------------------------
+INTERACTION	(USER_1)			"Main Program Number"						PNum 						= 100;
+INTERACTION	(CHARACTER)		"Main Program Comment"					MainProgComment	= "No Text";
+INTERACTION	(BOOLEAN_)		"Use Sequencing?"								SeqFlag 				= FALSE_;  // see DF2 "Miscellaneous"
+INTERACTION	(BOOLEAN_)		"Output Subroutines?"						SubFlag 				= FALSE_;
+INTERACTION (BOOLEAN_)		"Trace TP Blocks in G-Code?"		FlagDebugUser		= FALSE_;
+
+FORMAT			(CHARACTER)		TEMP1 ;
+FORMAT			(SEQUENCING)	CurrSubNum ;
+
+MODAL X_CURPOS Y_CURPOS Z_CURPOS X_CENTER Y_CENTER MOTION_CODE CUTCOM_ON CUTCOM_OFF MCH_FEED CIRC_MOV;
+MODAL CYC_RETR CYC_PECK CYC_DWELL CYC_XSHFT CYC_YSHFT CYC_RETR Z_CYC_DEPTH Z_CYC_CLEAR;
+
+SET_TABS 8 25 35 ;
+
+*-----------------------------------------------------------------------------------------------
+
+NEW_LINE_IS $;
+
+  IF(SeqFlag == TRUE_)						// use sequesnceing (interaction flag) 
+    OUTPUT \J "N" SEQ_NUM " ";		// start & auto-increment values are defined in the DF2
+  ELSE
+    OUTPUT \J;
+  END_IF;
+
+
+*-----------------------------------------------------------------------------------------------
+
+STARTUP:	
+
+// Subroutine output YES/NO
+	IF (SubFlag == TRUE_) SUBS_CTRL_BYPLANE = DEF_XYONLY ; END_IF ;	// override DF2 subroutine output setting
+	
+// code for debugging Cimatron blocks - for user
+	IF (FlagDebugUser == TRUE_)
+		TRACE_TPBLOCK = TRUE_  ;
+		OUTPUT \J "*** Debug mode: DO NOT send to machine ***";	// prevent sending G-code with debug data
+	END_IF;
+	
+//	Developer debug tools
+*	TRACE_LINENO 		= TRUE_ ;															// Output EX2 line numbers
+*	TRACE_TPBLOCK 	= TRUE_ ;															// Output TP block numbers
+*	TRACE_EXECUTE 	= TRUE_ ;															// Create a log file of the entire execution process
+*	TRACE_EXECUTE 	= TRUE_ ; TRACE_SINGLESTEP = TRUE_ ;	// Stop at each block
+
+	
+*-----------------------------------------------------------------------------------------------
+
+BEGINNING OF TAPE: 
+
+	OUTPUT_REDIRECT "t";
+// check for any meaningfull program comment to be output - "No Text"	will NOT be output!
+	IF (STR_UPPER(MainProgComment) != "NO TEXT" && STR_CLEAN(MainProgComment) != "")
+		OUTPUT " (" MainProgComment ")";	
+	END_IF;
+	
+	OUTPUT $ "(DATE :  " DATE_SDD "." DATE_SMM "." DATE_SYY ")" ;
+	OUTPUT $ "(TIME :  " TIME_SHH ":" TIME_SMM ":" TIME_SSS ")" ;
+	OUTPUT \J "(----------TOOL LIST-------------)"	;
+	OUTPUT_BACK ;
+	OUTPUT \J "(--------------------------------)"	;
+		
+	OUTPUT $ "G17 G90 G90.1";
+
+
+*-----------------------------------------------------------------------------------------------
+
+END OF PROC:
+
+
+*-----------------------------------------------------------------------------------------------
+
+END OF TAPE:
+
+	OUTPUT $ "M05";
+	OUTPUT $ "M30";
+
+
+*-----------------------------------------------------------------------------------------------
+
+END OF FILE:
+
+	OUTPUT \J "%";
+	
+	
+*------------------------------------------------------------------------------------------------
+
+INSERT WITH:
+
+	OUTPUT $ INS_STR ;
+
+INSERT WITHOUT:
+
+	OUTPUT  \J INS_STR ;
+
+MESSAGE:
+
+	OUTPUT $ "( " MESS_STR " )"  ;	
+
+	
+*-----------------------------------------------------------------------------------------------
+	
+ORIGIN CHANGE : 
+
+//	set HOME number to G54, G55,... if not specified by the user
+	IF (CURR_ORIG < 53) CURR_ORIG = CURR_ORIG + 53 ; END_IF ;
+	OUTPUT $ "G" CURR_ORIG ;
+
+
+*-----------------------------------------------------------------------------------------------
+	
+TOOL CHANGE:
+
+	IF (QUALIFIER_NAME != "first" )
+		OUTPUT $ "M05";
+		OUTPUT $ "M09";
+		OUTPUT $ "G91 G28 Z0";
+	END_IF; 
+	OUTPUT \J " " ;
+	OUTPUT $ "T" TOOL_NUM " M06" ;
+
+// create tool list at the begining of the program - redirect to file *.t01
+	OUTPUT_REDIRECT "t" ;
+	IF (TOOL_FIRST_USE == TRUE_)
+		OUTPUT $ "( T" TOOL_NUM TAB_ TOOL_NAME TAB_ "DIA.- " DIAMETER_ " )";
+	END_IF ;
+	OUTPUT_BACK ;
+	
+*-----------------------------------------------------------------------------------------------
+	
+PROC FIRST POINT:
+
+// output procedure name and comment at the begining before procedure motions
+	IF (STR_UPPER(PROC_COMMENT) != "NO TEXT" && STR_CLEAN(PROC_COMMENT) != "")  // any meaningful comment?
+		OUTPUT $ "(" PROC_NAME " - " PROC_COMMENT ")";
+	ELSE
+		OUTPUT $ "(" PROC_NAME ")";	
+	END_IF;
+	
+	OUTPUT $ "S" SPIN_SPEED " " SPIN_DIR ;
+	OUTPUT $ MCH_COOL ;
+
+	
+
+*-----------------------------------------------------------------------------------------------
+	
+LINEAR MOTION: fast:
+
+	OUTPUT $ ;
+	IF_SET (MOTION_CODE) OUTPUT MOTION_CODE " " ; 	END_IF;
+	IF_SET (X_CURPOS)    OUTPUT "X" X_CURPOS " " ;	END_IF;
+	IF_SET (Y_CURPOS)    OUTPUT "Y" Y_CURPOS " " ;	END_IF;
+	IF_SET (Z_CURPOS)    OUTPUT "Z" Z_CURPOS ;    	END_IF;
+
+
+*-----------------------------------------------------------------------------------------------
+		
+LINEAR MOTION: fastlencomp:
+		
+	OUTPUT $ CODE_CUTCOM_LEN " H" TOOL_NUM " Z" Z_CURPOS;
+
+
+*-----------------------------------------------------------------------------------------------
+		
+LINEAR MOTION: lencomp:
+		
+	OUTPUT $ CODE_CUTCOM_LEN " H" TOOL_NUM " Z" Z_CURPOS;
+
+
+*-----------------------------------------------------------------------------------------------
+
+LINEAR MOTION:
+
+	OUTPUT $;
+	IF_SET (MOTION_CODE)	OUTPUT	MOTION_CODE		" " ; END_IF;
+	IF_SET (CUTCOM_ON)		OUTPUT	CUTCOM_ON			" D" TOOL_NUM " " ; END_IF;
+	IF_SET (CUTCOM_OFF)		OUTPUT	CUTCOM_OFF		" " ; END_IF;
+	IF_SET (X_CURPOS)			OUTPUT	"X" X_CURPOS	" " ; END_IF;
+	IF_SET (Y_CURPOS)			OUTPUT	"Y" Y_CURPOS	" " ; END_IF;
+	IF_SET (Z_CURPOS)			OUTPUT	"Z" Z_CURPOS	" " ; END_IF;
+	IF_SET (MCH_FEED)			OUTPUT	"F" MCH_FEED			; END_IF;
+
+
+
+*-----------------------------------------------------------------------------------------------
+
+CIRCULAR MOTION: 
+
+	OUTPUT $;
+	IF_SET (MOTION_CODE)		OUTPUT	MOTION_CODE		" " ;	END_IF ;	
+	IF_SET (X_CURPOS)			OUTPUT	"X" X_CURPOS	" " ;	END_IF ;
+	IF_SET (Y_CURPOS)			OUTPUT	"Y" Y_CURPOS	" " ;	END_IF ;
+	IF_SET (Z_CURPOS)			OUTPUT	"Z" Z_CURPOS	" " ;	END_IF ;
+	IF_SET (X_CENTER)			OUTPUT	"I" X_CENTER	" " ;	END_IF ;
+	IF_SET (Y_CENTER)			OUTPUT	"J" Y_CENTER	" " ;	END_IF ;
+
+
+*-----------------------------------------------------------------------------------------------
+
+CYCLE:
+
+	IF (QUALIFIER_NAME == "on" || QUALIFIER_NAME == "toinit")
+		SET_ON  X_CURPOS Y_CURPOS A_CURPOS B_CURPOS Z_CYC_DEPTH Z_CYC_CLEAR MCH_FEED;
+	END_IF;								// ensure they come out on first cycle block (not a must)
+	
+	OUTPUT $;
+	IF_SET (CYC_RETR)			OUTPUT	CYC_RETR " ";					END_IF;
+	IF_SET (MOTION_CODE)	OUTPUT	MOTION_CODE " ";			END_IF;
+	IF_SET (X_CURPOS)			OUTPUT "X"	X_CURPOS " ";			END_IF;
+	IF_SET (Y_CURPOS)			OUTPUT "Y"	Y_CURPOS " ";			END_IF;
+	IF_SET (Z_CYC_DEPTH)	OUTPUT "Z"	Z_CYC_DEPTH " ";	END_IF;	// Absolute coordinate for CYC_DEPTH
+	IF_SET (Z_CYC_CLEAR)	OUTPUT "R"	Z_CYC_CLEAR " ";	END_IF;	// Absolute coordinate for CYC_CLEAR
+	IF_SET (CYC_PECK)			OUTPUT "Q"	CYC_PECK " ";    	END_IF;
+	IF_SET (CYC_DWELL)		OUTPUT "P"	CYC_DWELL " ";   	END_IF;
+	IF_SET (CYC_XSHFT)		OUTPUT "I"	CYC_XSHFT " ";   	END_IF;
+	IF_SET (CYC_YSHFT)		OUTPUT "J"	CYC_YSHFT " ";   	END_IF;
+	IF_SET (MCH_FEED)			OUTPUT "F"	MCH_FEED " ";    	END_IF;
+	
+
+*-----------------------------------------------------------------------------------------------
+
+CYCLE: off: 
+
+	OUTPUT $ "G80";
+
+*-----------------------------------------------------------------------------------------------
+
+BEGINNING OF SUB:
+
+	CurrSubNum = PNum + SUB_NUMBER;		// set subroutine number
+	OUTPUT \J " " ;
+	OUTPUT \J "O" CurrSubNum ;
+	OUTPUT " (SUB of O" PNum ")";
+// output procedure name and comment at the begining of the subroutine	
+	IF (STR_UPPER(PROC_COMMENT) != "NO TEXT" && STR_CLEAN(PROC_COMMENT) != "")  // any meaningful comment?
+		OUTPUT $ "(" PROC_NAME " - " PROC_COMMENT ")";
+	ELSE
+		OUTPUT $ "(" PROC_NAME ")";	
+	END_IF;
+	
+	SEQ_LEVEL_NEXT ;	// restart sequencing at begining of subroutine
+
+
+SUBROUTINE CALL: 
+
+	OUTPUT $ "M98 P" CurrSubNum ;		// call machine subroutine
+
+
+END OF SUB: 
+
+	OUTPUT $ "M99";		// terminate subroutine machine program
+	SEQ_LEVEL_BACK;		// return to main program sequencing
+	
+	
+*-----------------------------------------------------------------------------------------------
+
+POST SCRIPT:
+
+// attach tool list at the begining of the program
+	SYSTEM_CALL "copy " OUTPUT_DIR FILE_NAME " " OUTPUT_DIR FILE_NAME ".temp" ;
+	SYSTEM_CALL "copy /b " OUTPUT_DIR FILE_NAME "._t01 + " OUTPUT_DIR FILE_NAME ".temp " OUTPUT_DIR FILE_NAME ;
+	
+	SYSTEM_CALL "del " OUTPUT_DIR FILE_NAME ".temp" ;
+	SYSTEM_CALL "del " OUTPUT_DIR FILE_NAME "._t01*" ;	
+	
+*-----------------------------------------------------------------------------------------------

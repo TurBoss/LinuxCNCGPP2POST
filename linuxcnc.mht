@@ -1,0 +1,2209 @@
+MIME-Version: 1.0
+X-Document-Type: Worksheet
+Content-Location: file:///C:/CAF919D3/GPP2-Blocks.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="windows-1255"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-125=
+5">
+<meta name=3DProgId content=3DExcel.Sheet>
+<meta name=3DGenerator content=3D"Microsoft Excel 11">
+<link rel=3DFile-List href=3D"GPP2-Blocks_files/filelist.xml">
+<style id=3D"GPP2-Blocks_812_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.font5812
+	{color:#993366;
+	font-size:16.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.xl15812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl24812
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:24px;
+	mso-char-indent-count:2;}
+.xl25812
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:36px;
+	mso-char-indent-count:3;}
+.xl26812
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl27812
+	{color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl28812
+	{color:maroon;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl29812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl30812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl31812
+	{color:fuchsia;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl32812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl33812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl34812
+	{color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:60px;
+	mso-char-indent-count:5;}
+.xl35812
+	{color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl36812
+	{color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl37812
+	{color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl38812
+	{color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:60px;
+	mso-char-indent-count:5;}
+.xl39812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:72.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl40812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#993366;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl41812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#993366;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl42812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#993366;
+	font-size:16.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl43812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl44812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl45812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl46812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl47812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl48812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl49812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl50812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:maroon;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl51812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:maroon;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl52812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:maroon;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl53812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl54812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl55812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl56812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl57812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl58812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl59812
+	{color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl60812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:fuchsia;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl61812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:fuchsia;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl62812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:fuchsia;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl63812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl64812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl65812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl66812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl67812
+	{color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl68812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl69812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl70812
+	{color:navy;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:24px;
+	mso-char-indent-count:2;}
+.xl71812
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:36px;
+	mso-char-indent-count:3;}
+.xl72812
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:36px;
+	mso-char-indent-count:3;}
+.xl73812
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl74812
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl75812
+	{color:red;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl76812
+	{color:red;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl77812
+	{color:maroon;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl78812
+	{color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl79812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl80812
+	{color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl81812
+	{color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl82812
+	{color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl83812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:navy;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl84812
+	{color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl85812
+	{color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl86812
+	{color:fuchsia;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:96px;
+	mso-char-indent-count:8;}
+.xl87812
+	{color:fuchsia;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl88812
+	{color:green;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:60px;
+	mso-char-indent-count:5;}
+.xl89812
+	{color:maroon;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl90812
+	{color:maroon;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl91812
+	{color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:72px;
+	mso-char-indent-count:6;}
+.xl92812
+	{color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;
+	padding-left:24px;
+	mso-char-indent-count:2;}
+.xl93812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl94812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl95812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl96812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl97812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl98812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl99812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl100812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl101812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl102812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Narrow", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl103812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Black", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	border-top:1.0pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:nowrap;}
+.xl104812
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Black", sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+-->
+</style>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--The following information was generated by Microsoft Office Excel's Pub=
+lish
+as Web Page wizard.-->
+<!--If the same item is republished from Excel, all information between the=
+ DIV
+tags will be replaced.-->
+<!----------------------------->
+<!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
+<!----------------------------->
+
+<div id=3D"GPP2-Blocks_812" align=3Dcenter x:publishsource=3D"Excel">
+
+<table x:str border=3D0 cellpadding=3D0 cellspacing=3D0 width=3D879 style=
+=3D'border-collapse:
+ collapse;table-layout:fixed;width:660pt'>
+ <col width=3D289 style=3D'mso-width-source:userset;mso-width-alt:10569;wid=
+th:217pt'>
+ <col class=3Dxl29812 width=3D106 style=3D'mso-width-source:userset;mso-wid=
+th-alt:
+ 3876;width:80pt'>
+ <col class=3Dxl30812 width=3D133 style=3D'mso-width-source:userset;mso-wid=
+th-alt:
+ 4864;width:100pt'>
+ <col class=3Dxl32812 width=3D219 style=3D'mso-width-source:userset;mso-wid=
+th-alt:
+ 8009;width:164pt'>
+ <col class=3Dxl33812 width=3D132 style=3D'mso-width-source:userset;mso-wid=
+th-alt:
+ 4827;width:99pt'>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl15812 width=3D289 style=3D'height:12.75pt;width=
+:217pt'></td>
+  <td class=3Dxl29812 width=3D106 style=3D'width:80pt'></td>
+  <td class=3Dxl30812 width=3D133 style=3D'width:100pt'></td>
+  <td class=3Dxl32812 width=3D219 style=3D'width:164pt'></td>
+  <td class=3Dxl33812 width=3D132 style=3D'width:99pt'></td>
+ </tr>
+ <tr height=3D120 style=3D'height:90.0pt'>
+  <td height=3D120 class=3Dxl39812 colspan=3D4 style=3D'height:90.0pt'>Post=
+: gpp2test</td>
+  <td class=3Dxl33812></td>
+ </tr>
+ <tr height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl15812 style=3D'height:12.75pt'></td>
+  <td class=3Dxl29812></td>
+  <td class=3Dxl30812></td>
+  <td class=3Dxl32812></td>
+  <td class=3Dxl33812></td>
+ </tr>
+ <tr height=3D31 style=3D'height:23.25pt'>
+  <td height=3D31 class=3Dxl42812 colspan=3D4 style=3D'height:23.25pt'>Purp=
+ose: <font
+  class=3D"font5812"><span style=3D'mso-spacerun:yes'> </span>Present all G=
+PP2
+  blocks and their variables</font></td>
+  <td class=3Dxl41812></td>
+ </tr>
+ <tr height=3D31 style=3D'height:23.25pt'>
+  <td height=3D31 class=3Dxl42812 colspan=3D5 style=3D'height:23.25pt'>Auth=
+or: <font
+  class=3D"font5812">This post is part of<span style=3D'mso-spacerun:yes'> 
+  </span>the installation and is always updated to GPP2 latest versio</font=
+><span
+  style=3D'display:none'><font class=3D"font5812">n</font></span></td>
+ </tr>
+ <tr height=3D31 style=3D'height:23.25pt'>
+  <td height=3D31 class=3Dxl42812 style=3D'height:23.25pt'></td>
+  <td class=3Dxl40812></td>
+  <td class=3Dxl40812></td>
+  <td class=3Dxl40812></td>
+  <td class=3Dxl40812></td>
+ </tr>
+ <tr height=3D31 style=3D'height:23.25pt'>
+  <td height=3D31 class=3Dxl42812 colspan=3D2 style=3D'height:23.25pt'>GPP2=
+ Blocks List
+  (and order)</td>
+  <td class=3Dxl15812></td>
+  <td class=3Dxl15812></td>
+  <td class=3Dxl15812></td>
+ </tr>
+ <tr height=3D18 style=3D'height:13.5pt'>
+  <td height=3D18 class=3Dxl15812 style=3D'height:13.5pt'></td>
+  <td class=3Dxl29812></td>
+  <td class=3Dxl30812></td>
+  <td class=3Dxl32812></td>
+  <td class=3Dxl33812></td>
+ </tr>
+ <tr class=3Dxl104812 height=3D31 style=3D'height:23.25pt'>
+  <td height=3D31 class=3Dxl103812 style=3D'height:23.25pt'>Block</td>
+  <td class=3Dxl103812 style=3D'border-left:none'>Appear</td>
+  <td class=3Dxl103812 style=3D'border-left:none'>Level</td>
+  <td class=3Dxl103812 style=3D'border-left:none'>Qualifiers</td>
+  <td class=3Dxl103812 style=3D'border-left:none'>Not in Use</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl98812 style=3D'height:15.75pt'>* Declarations</=
+td>
+  <td class=3Dxl99812 style=3D'border-left:none' x:num>1</td>
+  <td class=3Dxl100812 style=3D'border-left:none'>File</td>
+  <td class=3Dxl101812 style=3D'border-left:none'>&nbsp;</td>
+  <td class=3Dxl102812 style=3D'border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'>=
+Post
+  Processor TITLE</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'>=
+Post
+  Processor Protection</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'>=
+FORMAT</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>Declartion=
+</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'>=
+INTERACTION</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>Declartion=
+</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'>=
+MODAL</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>Declartion=
+</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl68812 style=3D'height:15.75pt;border-top:none'>=
+NEW_LINE_IS</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl68812 style=3D'height:15.75pt;border-top:none'>=
+* GPP2
+  Procedures</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'>=
+GPP2_PROCDEF</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'
+  x:str=3D"GPP_PROCPARAM ">GPP_PROCPARAM<span style=3D'mso-spacerun:yes'> <=
+/span></td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>GPP2 Proce=
+dure</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl68812 style=3D'height:15.75pt;border-top:none'>=
+* Machine
+  Definition</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'>=
+GPP2_PROCDEF</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'
+  x:str=3D"GPP_PROCPARAM ">GPP_PROCPARAM<span style=3D'mso-spacerun:yes'> <=
+/span></td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>Machine De=
+finition</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl68812 style=3D'height:15.75pt;border-top:none'>=
+STARTUP</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl68812 style=3D'height:15.75pt;border-top:none'>=
+BEGINNING
+  OF TAPE</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl46812 style=3D'border-top:none;border-left:none'>beforecut<=
+/td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'>=
+BEGINNING
+  OF TLPATH</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl25812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl71812 style=3D'height:12.75pt;border-top:none'>=
+BEGINNING
+  OF PROC</td>
+  <td class=3Dxl47812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl48812 style=3D'border-top:none;border-left:none'>Toolpath</=
+td>
+  <td class=3Dxl49812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl72812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl26812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl73812 style=3D'height:12.75pt;border-top:none'>=
+ORIGIN
+  CHANGE</td>
+  <td class=3Dxl47812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl48812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl49812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl74812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl26812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl73812 style=3D'height:12.75pt;border-top:none'>=
+TOOL
+  CHANGE</td>
+  <td class=3Dxl47812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl48812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl49812 style=3D'border-top:none;border-left:none'>first, las=
+t,
+  multitool</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>lastmulti<=
+/td>
+ </tr>
+ <tr class=3Dxl26812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl73812 style=3D'height:12.75pt;border-top:none'>=
+START PROC</td>
+  <td class=3Dxl47812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl48812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl49812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl26812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl75812 style=3D'height:12.75pt;border-top:none'>=
+* Air
+  Connection</td>
+  <td class=3Dxl47812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl48812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl49812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl74812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl28812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl76812 style=3D'height:12.75pt;border-top:none'>=
+BEGINNING
+  OF CONNECT</td>
+  <td class=3Dxl50812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl51812 style=3D'border-top:none;border-left:none'>Connection=
+</td>
+  <td class=3Dxl52812 style=3D'border-top:none;border-left:none'>movetosafe=
+</td>
+  <td class=3Dxl77812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl28812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl76812 style=3D'height:12.75pt;border-top:none'>=
+MANUAL
+  CONNECTION</td>
+  <td class=3Dxl50812 style=3D'border-top:none;border-left:none'>1 (Optiona=
+l)</td>
+  <td class=3Dxl51812 style=3D'border-top:none;border-left:none'>Connection=
+</td>
+  <td class=3Dxl52812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl77812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl34812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl78812 style=3D'height:12.75pt;border-top:none'>=
+LINEAR
+  MOTION</td>
+  <td class=3Dxl53812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl54812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl55812 style=3D'border-top:none;border-left:none'>fast, lenc=
+omp,
+  fastlencomp</td>
+  <td class=3Dxl79812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl28812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl76812 style=3D'height:12.75pt;border-top:none'>=
+END OF
+  CONNECT</td>
+  <td class=3Dxl50812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl51812 style=3D'border-top:none;border-left:none'>Connection=
+</td>
+  <td class=3Dxl52812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl77812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl26812 height=3D16 style=3D'mso-height-source:userset;height:=
+12.0pt'>
+  <td height=3D16 class=3Dxl73812 style=3D'height:12.0pt;border-top:none'>P=
+ROC FIRST
+  POINT</td>
+  <td class=3Dxl47812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl48812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl49812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl74812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl36812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl80812 style=3D'height:12.75pt;border-top:none'>=
+* 2X
+  Subroutines</td>
+  <td class=3Dxl56812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl57812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl58812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl81812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl38812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl82812 style=3D'height:12.75pt;border-top:none'>=
+BEGINNING
+  OF SUB</td>
+  <td class=3Dxl56812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl57812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl58812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl83812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl37812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl82812 style=3D'height:12.75pt;border-top:none'>=
+END OF SUB</td>
+  <td class=3Dxl56812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl57812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl59812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl83812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl37812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl82812 style=3D'height:12.75pt;border-top:none'>=
+SUBROUTINE
+  CALL</td>
+  <td class=3Dxl56812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl57812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl58812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl83812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl37812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl82812 style=3D'height:12.75pt;border-top:none'>=
+SUBROUTINE
+  RETURN</td>
+  <td class=3Dxl56812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl57812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl58812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl83812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl35812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl84812 style=3D'height:12.75pt;border-top:none'>=
+* Motions</td>
+  <td class=3Dxl53812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl54812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl55812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl85812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl34812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl78812 style=3D'height:12.75pt;border-top:none'>=
+LINEAR
+  MOTION</td>
+  <td class=3Dxl53812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl54812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl55812 style=3D'border-top:none;border-left:none'>fast, norm=
+appr,
+  normretr, ltangappr, ltangretr</td>
+  <td class=3Dxl79812 style=3D'border-top:none;border-left:none'>3D, fast3D=
+</td>
+ </tr>
+ <tr class=3Dxl31812 height=3D17 style=3D'mso-height-source:userset;height:=
+12.75pt'>
+  <td height=3D17 class=3Dxl86812 style=3D'height:12.75pt;border-top:none'>=
+CUTTER
+  COMPENSATION</td>
+  <td class=3Dxl60812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl61812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl62812 style=3D'border-top:none;border-left:none'>coff</td>
+  <td class=3Dxl87812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl34812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl78812 style=3D'height:12.75pt;border-top:none'>=
+RESET AXIS</td>
+  <td class=3Dxl53812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl54812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl55812 style=3D'border-top:none;border-left:none'>primary, s=
+econdary</td>
+  <td class=3Dxl79812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl34812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl78812 style=3D'height:12.75pt;border-top:none'>=
+CIRCULAR
+  MOTION</td>
+  <td class=3Dxl53812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl54812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl63812 style=3D'border-top:none;border-left:none'>ctangappr,
+  ctangretr</td>
+  <td class=3Dxl88812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl34812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl78812 style=3D'height:12.75pt;border-top:none'>=
+CYCLE</td>
+  <td class=3Dxl53812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl54812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl55812 style=3D'border-top:none;border-left:none'>on, toinit=
+, off</td>
+  <td class=3Dxl79812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl34812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl75812 style=3D'height:12.75pt;border-top:none'>=
+* Air
+  Connection</td>
+  <td class=3Dxl53812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl54812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl55812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl79812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl28812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl89812 style=3D'height:12.75pt;border-top:none'>=
+* Messages
+  and strings</td>
+  <td class=3Dxl50812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl51812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl52812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl77812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl27812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl90812 style=3D'height:12.75pt;border-top:none'>=
+INSERT
+  WITH</td>
+  <td class=3Dxl64812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl65812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl66812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl91812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl27812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl90812 style=3D'height:12.75pt;border-top:none'>=
+INSERT
+  WITHOUT</td>
+  <td class=3Dxl64812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl65812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl67812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl91812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl27812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl90812 style=3D'height:12.75pt;border-top:none'>=
+MESSAGE</td>
+  <td class=3Dxl64812 style=3D'border-top:none;border-left:none'>Many</td>
+  <td class=3Dxl65812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl46812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl91812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl25812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl71812 style=3D'height:12.75pt;border-top:none'>=
+END OF
+  PROC</td>
+  <td class=3Dxl47812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl48812 style=3D'border-top:none;border-left:none'>Procedure<=
+/td>
+  <td class=3Dxl49812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl72812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr class=3Dxl24812 height=3D17 style=3D'height:12.75pt'>
+  <td height=3D17 class=3Dxl70812 style=3D'height:12.75pt;border-top:none'>=
+END OF
+  TOOLPATH</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>Toolpath</=
+td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl92812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl68812 style=3D'height:15.75pt;border-top:none'>=
+END OF
+  TAPE</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>aftercut</=
+td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D21 style=3D'height:15.75pt'>
+  <td height=3D21 class=3Dxl68812 style=3D'height:15.75pt;border-top:none'>=
+END OF
+  FILE</td>
+  <td class=3Dxl43812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl44812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl45812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl69812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=3D22 style=3D'height:16.5pt'>
+  <td height=3D22 class=3Dxl93812 style=3D'height:16.5pt;border-top:none'>P=
+OST SCRIPT</td>
+  <td class=3Dxl94812 style=3D'border-top:none;border-left:none' x:num>1</t=
+d>
+  <td class=3Dxl95812 style=3D'border-top:none;border-left:none'>File</td>
+  <td class=3Dxl96812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+  <td class=3Dxl97812 style=3D'border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=3D0 style=3D'display:none'>
+  <td width=3D289 style=3D'width:217pt'></td>
+  <td width=3D106 style=3D'width:80pt'></td>
+  <td width=3D133 style=3D'width:100pt'></td>
+  <td width=3D219 style=3D'width:164pt'></td>
+  <td width=3D132 style=3D'width:99pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
+<!----------------------------->
+</body>
+
+</html>
