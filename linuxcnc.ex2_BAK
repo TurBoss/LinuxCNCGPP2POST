@@ -73,7 +73,7 @@ BEGINNING OF TAPE:
 	OUTPUT_BACK ;
 	OUTPUT \J "(--------------------------------)"	;
 		
-	OUTPUT $ "G17G21G90G90.1" ;
+	OUTPUT $ "G21G90G90.1" ;
 	OUTPUT $ "G64 P0.001" ;
 
 
