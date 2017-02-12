@@ -19,8 +19,8 @@ E08
   12 X  12 X  12 X  12 X  12 X  12 X  12 X  12 X  12 X   1 C
    1 C   1 C   1 C   1 I   2 C   2 C   2 C   2 C   2 C   1 C
    1 C   2 C   3 C   3 C   3 C   2 C   2 C   1 R   1 R   1 R
-   1 R   5 R   5 R   5 R   5 R   2 C   2 C   2 0   1 C   1 C
-   1 C   1 C   1 C   1 C   1 C   1 C   1 C   1 C   1 C   1 C
+   1 R   5 R   5 R   5 R   5 R   2 C   2 C   2 0   3 C   3 C
+   3 C   3 C   3 C   3 C   3 C   3 C   3 C   3 C   3 C   3 C
    3 C   3 C   1 I   1 I   1 I   1 I   3 1   2 0   1 C   1 C
    1 C   2 0  12 C   2 0   2 0  12 X  12 X  12 X  12 X  12 X
   12 X   3 R   1 I   2 0   2 0   2 0   2 0   3 C   3 C   3 C
@@ -33,13 +33,13 @@ E08
    4 R   4 R   1 R   1 R  16 1  16 1   3 R   2 0   1 C   3 R
   16 C  14 C   2 R   5 1   9 2   4 R   2 0   1 I   3 1  12 3
    2 R   2 R   3 R   3 R   3 R   4 R   2 R   2 R   3 C  10 4
-   3 C   8 1  12 3   4 I   2 0   3 1
+   3 C   8 1  12 3   4 I   2 0   4 1
   ABSOLUTEG90G91METRIC1.0991010~-.000991010~-.000991010~-.000
 9 1110~-.0009 1110~-.0009 1110~-.0009 1110~-.000991010~-.000991010~-.000991010~-.000991010~-.000991010~-.000 
     M3M4M5M8M7 
  M9G40G41G42G0G1   
- 15000150001500015000G2G3NO  
-          
+ 15000150001500015000G2G3NOG73G74
+G76G81G82G83G84G85G86G87G88G89
 G98G999910YESNO -
 .NO0           NONO991010~-.000991010~-.000991010~-.000991010~-.000991010~-.000
 991110~-.0000.14NONONONOp01p02p03
@@ -52,4 +52,4 @@ G41020000YES500MixedYES9999YES
 9999999900On Rotation OnlyTool Change Only2.5NO 360
 Template-NCSetupTemplate-Tools60NeverProcedure0.01NO6YESSimultaneous
 202050050050020004545G43File Units
-G76ExplodedMotions Only1000NOMHT
+G76ExplodedMotions Only1000NOHTML
